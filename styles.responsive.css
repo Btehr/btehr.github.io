@@ -1,0 +1,478 @@
+
+
+/* ------------------------------------------------------------------------- */
+    /* RESPONSIVE WEB DESIGN */
+/* ------------------------------------------------------------------------- */
+/* MÓVILES */
+
+@media(max-width:430px){
+
+ 
+    body{
+        
+        width: 100%;
+        height: auto;/* scroll */
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    /* --------------------------------------------------- */
+    /* HEADER */ /* Menú + foto */
+     /* --------------------------------------------------- */
+    header{
+       width:100%;
+       height: 100vh;
+   /*     border: 5px solid rgb(255, 208, 0); */
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       background-image: url(home_movil.jpeg);/* HOME */
+       background-size: cover;
+   
+    }
+          .caja_1{/* superior: logo e idioma*/
+           width: 100%;
+           height: 25%;
+   
+           display: flex;
+           flex-direction: column-reverse;
+           justify-content: center;
+           align-items: center;
+     /*      border: 3px solid rgb(208, 255, 0);  */
+          }
+               .caja1_a{/* LOGO */
+                   width: 90%;
+                   height: 80%;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center; 
+                   /* border: 3px solid rgb(4, 0, 255);   */
+                   background-image: url(LOGO\ BTEHR\ blanco.png);
+                   background-position: center;
+                   background-repeat: no-repeat;
+                   background-size: 45%;
+   
+               }
+                       .logo{
+                          width: 0%;
+                       }
+        
+               .caja1_b{/* IDIOMA */
+                   width: 100%;
+                   height: 20%;
+                   display: flex;
+                   justify-content: flex-end;
+                   /* border: 3px solid rgb(17, 255, 0);  */
+               }
+                       .caja_1 a{
+                            color: white;
+                            font-family: 'Raleway', sans-serif; 
+                            font-size: 13px;
+                            margin: 2%;
+                       }
+   
+          .caja_2{/* inferior: menú y título */
+           width: 100%;
+           height: 75%;
+           /* border: 3px solid rgb(255, 0, 153);  */
+           display: flex;
+           flex-direction: column-reverse;
+           justify-content: center;
+           align-items: center;
+           align-items: center;
+          }
+               .menu{
+                   width: 90%;
+                   height: 70%;
+              /*  border: 3px solid rgb(212, 136, 182);  */
+                   display: flex;
+                   justify-content: center;
+                   align-items: top;
+   
+   
+               }
+                     .recuadro{
+                       width: 60%;
+                       height: 50%;
+                       border: 3px solid rgb(255, 255, 255);
+                       background-color:#000;
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       align-items: left;/* TOCO AQUÍ */
+                     }
+                     .menu h4{
+                       font-size: 17px;
+                       /* margin: 2.5%; */
+                       margin: 2.5%;
+                       margin-left: 20%;
+                    
+   
+                     }
+                     .menu :hover{
+                       font-weight: 900;
+   
+                     }
+                     #home{
+                       font-size: 17px;
+                      /*  margin: 2.5%; */
+                      margin: 2.5%;
+                      margin-left: 20%;
+                     
+                     }
+                     #versalitas{
+                       font-size: 17px;
+                       /* margin: 2.5%; */
+                       margin-left: 2.5% auto;
+                       margin-left: 20%;
+            
+                     }
+                     #h{
+                       font-size: 21px;
+   
+                     }
+       
+               .title{
+                   width: 75%;
+                   height: 30%;
+                   /* border: 3px solid rgb(10, 235, 156); */ 
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: left;
+    
+               }
+                    .title h1{
+              
+                       font-size: 2.6rem;
+                       font-weight: 600;
+                       line-height: 60px;
+      
+              
+                     /*   text-decoration: none; */
+   
+                    }
+                    .title h3{/* misma linea */
+        
+                       font-size: 1.8rem;
+                       margin-left: 13%;/* TOCO AQUÍ */
+   
+                    }
+                    #about{ /* para bajar about us y alinear con la caja */
+        
+                     height: auto;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center;
+                     align-items: center;
+                   
+                    /*  border: 3px solid rgb(10, 235, 156); */
+                     
+                    }
+                    #us{
+                       font-size: 3rem;
+                    }
+   /* --------------------------------------------------- */
+   /* CONTENIDO */
+    /* --------------------------------------------------- */
+    .contenido{
+      /*  border: 8px solid rgb(212, 136, 182);  */
+   
+       display: flex;
+       width: 100%;
+       height:  175vmax;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   
+    }    
+        .encabezado{
+           width: 80%;
+           height: 50%;/*  */
+        }
+             .encabezado h1{
+               width: 100%;
+               height: 40%;
+               font-size: 35px;
+   
+             }
+             .encabezado h2{
+               font-size: 28px;
+   
+             }
+             .encabezado h4{
+               width: 100%;
+               height: 50%;
+               
+               font-size: 20px;
+              
+             }
+             .linea{
+               width: 80%;
+               /* height: 1px; */
+               border-bottom: 2px solid rgb(0, 0, 0);
+             }
+   
+             .segundo_encabezado{
+              width: 80%;
+              height: 50%;
+             }
+                .segundo_encabezado h1{
+                    height: 45%;
+                    font-size: 28px;
+                }
+                #segundo_encabezado_es h1 {/*  */
+                  font-size: 26px;
+                }
+              .caja{
+                  height: 52%;
+              }
+              
+                  .caja_texto h2{
+                      width: 90%;
+                      font-size: 10px; 
+                  }
+    /* --------------------------------------------------- */
+   /* FOOTER */ /* REDES SOCIALES, ANAGRAMA & COPY */
+    /* --------------------------------------------------- */
+    footer{
+      height: 13vh;
+
+    }
+      .redes_sociales{
+          width: 80%;
+          height: 25%;
+      }
+          .linkedin{
+              height: 90%;
+  
+          }
+                .linkedin img{
+                    height: 85%;
+                }
+          .twitter{
+            height: 90%;
+              
+          }
+                 .twitter img{
+                     height: 85%;
+  
+                  }
+  
+      .anagrama{
+          height: 60%;
+          
+      }
+         #b{
+          height: 90%;
+         }
+      .copys p{
+          font-size: smaller;
+         
+      }
+   }
+   @media(max-width:390px){
+    .menu{
+      width: 90%;
+      height: 65%; 
+      display: flex;
+      justify-content: center;
+      margin-top: 2%;
+      /* border: 3px solid rgb(213, 10, 235);  */
+
+
+  }
+        .recuadro{/* aquí */
+          width: 60%;
+          height: 60%;
+        }
+        .menu h4{
+          font-size: 16px;
+          margin: 2.5%;
+          margin-left: 16%;
+        }
+        #home{
+          font-size: 16px;
+          margin: 2.5%;
+          margin-left: 16%;
+
+        }
+        #versalitas{
+          font-size: 16px;
+          margin: 2.5%;
+          margin-left: 16%;
+
+        }
+        #h{
+          font-size: 20px;
+
+        }
+
+  .title{
+      width: 75%;
+      height: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     /*  border: 3px solid rgb(10, 190, 235);  */
+  }
+       .title h1{
+          font-size: 2rem;
+
+       }
+       .title h3{
+          font-size: 1.5rem;
+          line-height: 30px;
+       }
+/* ------------------------------------------------ */
+.linea{
+  width: 80%;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.contenido{
+   height:  175vmax;
+
+
+}    /* encabezado */
+         .encabezado h1{
+           font-size: 32px;
+
+         }
+         .encabezado h2{
+           font-size: 26px;
+
+         }
+         .encabezado h4{
+           font-size: 19px;
+          
+         }
+
+         /* segundo encabezado */
+      .segundo_encabezado h1{
+          font-size: 26px;
+
+      }
+      #segundo_encabezado_es h1 {/*  */
+        font-size: 24px;
+      }
+          .caja{
+              height: 50%;
+           
+          }
+              .caja_texto h2{
+                  font-size: 9px; 
+              }
+   }
+   @media(max-width:390px){
+    .contenido{
+       width: 100%;
+       height:  180vmax;
+    
+    
+    }    /* encabezado */
+             .encabezado h1{
+               font-size: 30px;
+    
+             }
+             .encabezado h2{
+               font-size: 25px;
+    
+             }
+             .encabezado h4{
+               font-size: 17px;
+              
+             }
+    
+             /* segundo encabezado */
+          .segundo_encabezado h1{
+              font-size: 23px;
+    
+          }
+          #segundo_encabezado_es h1 {/*  */
+            font-size: 22px;
+          }
+              .caja{
+                  height: 50%;
+               
+              }
+                  .caja_texto h2{
+                      font-size: 8px; 
+                  }
+   }
+
+   @media(max-width:280px){
+    body{
+      height: auto;
+    }
+    header{
+      height: 100vh;
+    /*  border: 10px solid rgb(255, 208, 0);  */
+    }
+                   .title h1{
+                      font-size: 1.4rem;
+  
+                   }
+                   .encabezado h2{
+   
+                    font-size: 22px;
+             
+                  }
+          
+  /* ------------------------------------------------ */
+  .contenido{
+    /*  border: 8px solid rgb(212, 136, 182); */
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  
+  }    
+      .encabezado{
+         height: 50%;
+  
+/* border: 3px solid rgb(230, 6, 6); */
+      }
+          .encabezado h1{
+            height: 30%;
+            font-size: 22px;
+
+          }
+           .encabezado h2{
+             height: 10%;
+          /*    border: 3px solid rgb(149, 212, 136); */
+             font-size: 18px;
+             display: flex;
+             justify-content: center;
+  
+           }
+           .encabezado h4{
+             height: 60%;
+     /*         border: 3px solid rgb(166, 136, 212);  */ 
+             font-size: 16px;
+             line-height: 19px;
+            
+           }
+ 
+     .segundo_encabezado{
+         height: 50%;
+
+     }
+     .segundo_encabezado h1 {
+      font-size: 20px;
+    }
+    #segundo_encabezado_es h1 {/*  */
+      font-size: 18px;
+    }
+    .caja_texto h2 {
+      font-size: 7px;
+  }
+  /* footer */
+  .copys{
+    font-size: 10px;
+  
+  }
+  #versalita{
+    font-size: 12px;
+  }
+ 
+
+}
