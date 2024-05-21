@@ -1,24 +1,9 @@
-
-
-/* ------------------------------------------------------------------------- */
-    /* RESPONSIVE WEB DESIGN */
-/* ------------------------------------------------------------------------- */
+/* -------------------------------/* RESPONSIVE WEB DESIGN ------------------------------------------ */
 /* MÓVILES */
 
 @media(max-width:430px){
+    /* ----------------------HEADER----------------------------- */
 
- 
-    body{
-        
-        width: 100%;
-        height: auto;/* scroll */
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-    }
-    /* --------------------------------------------------- */
-    /* HEADER */ /* Menú + foto */
-     /* --------------------------------------------------- */
     header{
        width:100%;
        height: 100vh;
@@ -26,7 +11,7 @@
        display: flex;
        flex-direction: column;
        justify-content: center;
-       background-image: url(home_movil.jpeg);/* HOME */
+       background-image: url(img/portadas/portadas_movil/home_movil.jpeg);/* HOME */
        background-size: cover;
    
     }
@@ -47,7 +32,7 @@
                    justify-content: center;
                    align-items: center; 
                    /* border: 3px solid rgb(4, 0, 255);   */
-                   background-image: url(LOGO\ BTEHR\ blanco.png);
+                   background-image: url(img/logos/LOGO\ BTEHR\ blanco.png);
                    background-position: center;
                    background-repeat: no-repeat;
                    background-size: 45%;
@@ -172,27 +157,17 @@
                     #us{
                        font-size: 3rem;
                     }
-   /* --------------------------------------------------- */
-   /* CONTENIDO */
-    /* --------------------------------------------------- */
+   /* ----------------------MAIN----------------------------- */
     .contenido{
       /*  border: 8px solid rgb(212, 136, 182);  */
-   
-       display: flex;
        width: 100%;
-       height:  175vmax;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
    
     }    
         .encabezado{
            width: 80%;
-           height: 50%;/*  */
         }
              .encabezado h1{
                width: 100%;
-               height: 40%;
                font-size: 35px;
    
              }
@@ -202,20 +177,13 @@
              }
              .encabezado h4{
                width: 100%;
-               height: 50%;
-               
                font-size: 20px;
               
              }
-             .linea{
-               width: 80%;
-               /* height: 1px; */
-               border-bottom: 2px solid rgb(0, 0, 0);
-             }
-   
+
              .segundo_encabezado{
               width: 80%;
-              height: 50%;
+    
              }
                 .segundo_encabezado h1{
                     height: 45%;
@@ -224,21 +192,8 @@
                 #segundo_encabezado_es h1 {/*  */
                   font-size: 26px;
                 }
-              .caja{
-                  height: 52%;
-              }
-              
-                  .caja_texto h2{
-                      width: 90%;
-                      font-size: 10px; 
-                  }
-    /* --------------------------------------------------- */
-   /* FOOTER */ /* REDES SOCIALES, ANAGRAMA & COPY */
-    /* --------------------------------------------------- */
-    footer{
-      height: 13vh;
-
-    }
+            
+ /* ------------------FOOTER--------------------------------- */
       .redes_sociales{
           width: 80%;
           height: 25%;
@@ -325,15 +280,6 @@
           line-height: 30px;
        }
 /* ------------------------------------------------ */
-.linea{
-  width: 80%;
-  border-bottom: 2px solid rgb(0, 0, 0);
-}
-.contenido{
-   height:  175vmax;
-
-
-}    /* encabezado */
          .encabezado h1{
            font-size: 32px;
 
@@ -346,28 +292,15 @@
            font-size: 19px;
           
          }
-
-         /* segundo encabezado */
       .segundo_encabezado h1{
           font-size: 26px;
 
       }
-      #segundo_encabezado_es h1 {/*  */
-        font-size: 24px;
-      }
-          .caja{
-              height: 50%;
-           
-          }
-              .caja_texto h2{
-                  font-size: 9px; 
-              }
+  
    }
    @media(max-width:390px){
     .contenido{
        width: 100%;
-       height:  180vmax;
-    
     
     }    /* encabezado */
              .encabezado h1{
@@ -388,22 +321,11 @@
               font-size: 23px;
     
           }
-          #segundo_encabezado_es h1 {/*  */
-            font-size: 22px;
-          }
-              .caja{
-                  height: 50%;
-               
-              }
-                  .caja_texto h2{
-                      font-size: 8px; 
-                  }
+
    }
 
    @media(max-width:280px){
-    body{
-      height: auto;
-    }
+
     header{
       height: 100vh;
     /*  border: 10px solid rgb(255, 208, 0);  */
