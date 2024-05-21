@@ -4,15 +4,6 @@
 /* MÓVILES */
 
 @media(max-width:430px){
-
- 
- body{
-     width: 100%;
-     height: auto;/* scroll */
-     background-color: white;
-     display: flex;
-     flex-direction: column;
- }
  /* -----LANDING PAGE------- */
 
  .logotipo_btehr {
@@ -23,16 +14,6 @@
  .logotipo_btehr img{
   width: 30%;
 }
-/* .blockchain h1{
-
-  font-size: 2rem;
-  line-height: 50px;
-}
-.blockchain h3{
-  font-size: 1.2rem;
-  line-height: 30px;
-
-} */
 .eleccion_idioma{
 width: 100%;
 height: 40%;
@@ -45,17 +26,13 @@ margin: 2%;
 
 }
 
-/* ----- CIERRA ESTILOS LANDING PAGE------- */
- /* --------------------------------------------------- */
- /* HEADER */ /* Menú + foto */
-  /* --------------------------------------------------- */
  header{
     width:100%;
     height: 100vh;
 /*     border: 5px solid rgb(255, 208, 0); */
   }
 #sobre_nosotros{
-  background-image: url(about_us_movil.jpeg);
+  background-image: url(img/portadas/portadas_movil/about_us_movil.jpeg);
   background-size: cover;
 
 }
@@ -77,7 +54,7 @@ margin: 2%;
         justify-content: center;
         align-items: center; 
         /* border: 3px solid rgb(4, 0, 255);   */
-        background-image: url(LOGO\ BTEHR\ blanco.png);
+        background-image: url(img/logos/LOGO\ BTEHR\ blanco.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 45%;
@@ -189,18 +166,11 @@ margin: 2%;
                   font-size: 3.2rem;
                 }
 /* --------------------------------------------------- */
-/* CONTENIDO */
+/* main */
  /* --------------------------------------------------- */
  /* CONTACT */
- .linea{
-  width: 80%;
-  border-bottom: 3px solid rgb(0, 0, 0);/* BOTTON */
-  }
-
  .contenido_contact{
-     /* border: 8px solid rgb(212, 136, 182);   */
      width: 100%;
-     height:  170vmax;/* ! */
 
   }   
       .informacion_contacto{
@@ -224,14 +194,10 @@ margin: 2%;
 
 .segundo_encabezado_contacto{
 width: 80%;
-height: 50%;
 display: flex;
 justify-content: flex-start;
-/* border: 3px solid rgb(242, 0, 255)  ; */
-border-bottom: 3px solid rgb(0, 0, 0);  
 }
       .info{
-         height: 20%; 
          width: 100%;
          font-size: 12px;
          /* border: 3px solid rgb(0, 229, 255);  */
@@ -239,17 +205,14 @@ border-bottom: 3px solid rgb(0, 0, 0);
 /* FORMULARIO CONTACT */
       #form{
          width: 100%;
-         height: 75%;
          display: flex;
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         border: 3px solid rgb(0, 0, 0);
 
       }
           .field {
              width: 100%;
-             height: 16%;
             /*  border: 3px solid rgb(43, 0, 255); */
       
           }
@@ -268,7 +231,6 @@ border-bottom: 3px solid rgb(0, 0, 0);
 
               .field input {
                  width: 50%;
-                 height: 20%;
                  font-size: 15px;
                  /* border: 3px solid rgb(0, 208, 255); */
                 
@@ -276,7 +238,6 @@ border-bottom: 3px solid rgb(0, 0, 0);
 
               input[type="submit"] {/* submit message */
                  width: 60%;
-                 height: 15%;
                  font-size: 20px;
                 /*  border: 3px solid rgb(94, 255, 0); */
 
@@ -288,18 +249,15 @@ border-bottom: 3px solid rgb(0, 0, 0);
   
       display: flex;
       width: 100%;
-      height: 210vmax;/* MIRAR */
       flex-direction: column;
       justify-content: center;
       align-items: center;
   
    }    
-       .encabezado{
-          height: 50%;
-       }
+  
             .encabezado h2{
               width: 100%;
-              height: 30%;
+
     
               font-size: 30px;
               line-height: normal;
@@ -310,7 +268,7 @@ border-bottom: 3px solid rgb(0, 0, 0);
             }
             .encabezado h4{
               width: 90%;
-              height: 70%;
+
               font-size: 20px;
               display: flex;
               flex-direction:column;
@@ -321,23 +279,14 @@ border-bottom: 3px solid rgb(0, 0, 0);
               line-height: 25px;
             }
   
-      .segundo_encabezado{
-          height: 50%;
-         /*  border: 3px solid rgb(242, 0, 255); */
-      }
- /* --------------------------------------------------- */
-/* FOOTER */ /* REDES SOCIALES, ANAGRAMA & COPY */
- /* --------------------------------------------------- */
-footer{
-    height: 15vh;
-}
+
+
 }
 @media(max-width:400px){
   
   .contenido_contact{
     /* border: 8px solid rgb(212, 136, 182);   */
     width: 100%;
-    height:  220vmax;/* ! */
 
  }   
      
@@ -357,12 +306,6 @@ footer{
 /* FORMULARIO CONTACT */
      #form{
         width: 100%;
-        height: 75%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid rgb(0, 0, 0);
 
      }
     
@@ -387,15 +330,10 @@ footer{
 
              input[type="submit"] {/* submit message */
                 width: 60%;
-                height: 15%;
                 font-size: 18px;
                /*  border: 3px solid rgb(94, 255, 0); */
 
              }
-             .linea{
-              width: 80%;
-              border-bottom: 2px solid rgb(0, 0, 0);
-            }
 /* footer */
 .copys{
   font-size: 10px;
@@ -408,11 +346,7 @@ footer{
 }
 
 @media(max-width:380px){
-  body{
-    height: auto;
-  }
-  
-    .caja_1{
+  .caja_1{
       width: 100%;
       height: 25%;
        /*  border: 3px solid rgb(10, 235, 156);  */
@@ -504,7 +438,7 @@ footer{
 /* FORMULARIO CONTACT */
    #form{
       width: 100%;
-      height: 75%;
+
     
    }
   
@@ -528,7 +462,7 @@ footer{
 
            input[type="submit"] {/* submit message */
               width: 60%;
-              height: 15%;
+
               font-size: 18px;
              /*  border: 3px solid rgb(94, 255, 0); */
 
@@ -541,20 +475,14 @@ footer{
    align-items: center;
 
 }    
-    .encabezado{
-       height: 60%;/*  */
-
-   /*    border: 3px solid rgb(230, 6, 6); */
-    }
          .encabezado h2{
-           height: 30%;
+
           /* border: 3px solid rgb(149, 212, 136); */
            font-size: 25px;
 
          }
          .encabezado h4{
            width: 90%;
-           height: 70%;
            font-size: 16px;
           
          }
@@ -562,9 +490,7 @@ footer{
   }
 
    @media(max-width:280px){/* aquí */
-    body{
-      height: auto;
-    }
+   
     header{
       height: 100vh;
 
@@ -602,7 +528,6 @@ footer{
   
              .field label {
                 width: 30%;
-                /* height: 50%; */
                 font-size: 14px;
   
              }
@@ -612,21 +537,17 @@ footer{
              }
   
      .info{
-       /* width: 100%; */
-       height: 15%;
        font-size: 10px;
-     /*   border: 3px solid rgb(242, 0, 255);  */
-       margin-top: 3%;
      }
      /* FORMULARIO CONTACT */
      #form{
        height: 80%;
-       border: 3px solid rgb(0, 0, 0);
+  
      }
      
      .field label {
        width: 27%;
-       height: 30%;
+
 
      /*   border: 3px solid rgb(94, 255, 0);  */
        font-size: 12px;
@@ -635,7 +556,7 @@ footer{
      .field input {
        
        width: 45%;
-       height: 30%;
+  
        font-size: 11px;
     /*   border: 3px solid rgb(94, 255, 0);  */
      
