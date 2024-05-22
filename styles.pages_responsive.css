@@ -8,7 +8,7 @@
 
  .logotipo_btehr {
   height: 40%;
- /*  border: 3px solid rgb(255, 255, 255); */
+  border: 3px solid rgb(255, 255, 255);
 }
 
  .logotipo_btehr img{
@@ -32,7 +32,7 @@ margin: 2%;
 /*     border: 5px solid rgb(255, 208, 0); */
   }
 #sobre_nosotros{
-  background-image: url(about_us_movil.jpeg);
+  background-image: url(img/portadas/portadas_movil/about_us_movil.jpeg);
   background-size: cover;
 
 }
@@ -54,7 +54,7 @@ margin: 2%;
         justify-content: center;
         align-items: center; 
         /* border: 3px solid rgb(4, 0, 255);   */
-        background-image: url(LOGO BTEHR BLANCO.png);
+        background-image: url(img/logos/LOGO\ BTEHR\ blanco.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 45%;
@@ -140,31 +140,20 @@ margin: 2%;
                
             }
                  .title h1{
-            
-                    font-size: 3.5rem;
+                    font-size: 3rem;
                     line-height: 60px;
-                    text-align: center;
-                 /*    letter-spacing: 7px; */
-                    color: rgba(255, 255, 255);
-                  /*   text-decoration: none; */
+                    line-height: 2.5rem;
 
                  }
                  .title h3{
-                    font-size: 2.5rem;
+                    font-size: 1.8rem;
                     letter-spacing: 2px;
-                    color: rgb(255, 255, 255);
 
                  }
                  #us{
                     font-size: 3.5rem;
+                    font-style: italic;
                  }
-                #c{/* página contact */
-                  font-size: 24px;
-
-                }
-                #frase{
-                  font-size: 3.2rem;
-                }
 /* --------------------------------------------------- */
 /* main */
  /* --------------------------------------------------- */
@@ -406,20 +395,12 @@ justify-content: flex-start;
                 /*  border: 3px solid rgb(10, 190, 235);  */
             }
                  .title h1{
-                    font-size: 3rem;
+                    font-size: 2.5rem;
 
                  }
-        
                  #us{
                   font-size: 3rem;
                 }
-                 #c{
-                  font-size: 22px;
-
-                }
-                #frase{
-                  font-size: 2.7rem;
-                } 
 /* ------------------------------------------------ */
 .contenido_contact{
   /* border: 8px solid rgb(212, 136, 182);   */
@@ -435,6 +416,9 @@ justify-content: flex-start;
            font-size: 16px;
 
        }
+       /* #frase{
+        font-size: 40px;
+       } */
 /* FORMULARIO CONTACT */
    #form{
       width: 100%;
@@ -489,14 +473,18 @@ justify-content: flex-start;
   
   }
 
-   @media(max-width:280px){/* aquí */
-   
-    header{
-      height: 100vh;
+   @media(max-width:300px){/* aquí */
+    .title h1{
+      font-size: 30px;
+      line-height: 30px;
+    }
+    #us{
+      font-size: 34px;
 
     }
+  
                .title h3{
-                  font-size: 18px;
+                  font-size: 25px;
                   letter-spacing: 2px;
     
                }
