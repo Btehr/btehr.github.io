@@ -7,11 +7,13 @@
 *{
     margin: 0px;
     padding: 0px;
+
  }
  a:link, a:visited, a:active {
     text-decoration: none;
+
  }
- 
+
  body{
      
      width: 100%;
@@ -74,7 +76,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(home.png); 
+    background-image: url(img/portadas/home.png); 
     background-size: cover;
 
  }
@@ -109,6 +111,9 @@
                  .logo img{
                   width: 60%;
 
+                 }
+                 .logo img:hover{
+                  width: 61%;
                  }
                  
             .caja1_b{/* IDIOMA */
@@ -159,12 +164,14 @@
                     font-weight: 300;
                     color: white;
                     font-size: 1.3rem;
-                    margin: 3%;
-                    margin-left: 20%;
+                    margin: 2%;
+                    margin-left: 15%;
+                  /*   border: solid 3px red */
 
                   }
                   .menu :hover{
                     font-weight: 700;
+                    color: #A1B8C0;
 
                   }
                   #home{
@@ -174,10 +181,18 @@
                     color: white;
                     font-size: 1.5rem;
                     margin: 3%;
-                    margin-left: 20%;
+                    margin-left: 15%;
+                  }
+                  #home:hover{
+                    color: #A1B8C0;
+
                   }
                   #h{
                     font-size: 2rem;
+
+                  }
+                  #h:hover{
+                    color: #A1B8C0;
 
                   }
     
@@ -211,22 +226,22 @@
                  }
 /* -------- DISTINTAS PORTADAS DE CADA PÁGINA -------- */
 #contacto{
-  background-image: url(contact.png);/* CONTACT */
+  background-image: url(img/portadas/contact.png);/* CONTACT */
   background-size: cover;
    
 }
 #sobre_nosotros{
-  background-image: url(about_us.png);/* ABOUT US */
+  background-image: url(img/portadas/about_us.png);/* ABOUT US */
   background-size: cover;
 
 }
 #soluciones{
-  background-image: url(solutions.png);/* SOLUTIONS */
+  background-image: url(img/portadas/solutions.png);/* SOLUTIONS */
   background-size: cover;
 
 }
 #documentacion{
-  background-image: url(documents.png);/* DOCUMENTS */
+  background-image: url(img/portadas/documents.png);/* DOCUMENTS */
   background-size: cover;
 
 }
@@ -365,8 +380,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: BLACK;
+    background-color: black;
     color: white;
+    position: relative;
    
 }
     .redes_sociales{
@@ -407,12 +423,17 @@ footer{
       justify-content: center;
       align-items: center;
 
-  } 
+    } 
+    .anagrama a img:hover{
+      width: 19.1vmax;
+
+    }
     .copys{
         width: 80%;
         height: auto;
         padding-top: 15px;
         padding-bottom: 15px;
+
     }
     .copys p{
       font-family: 'Raleway', thin, sans-serif;
@@ -518,7 +539,6 @@ footer{
 
    }
 /* formulario contact*/
-   /* formulario contact*/
    #form{
      width: 100%;
      height: auto;
@@ -601,7 +621,6 @@ footer{
      color: #A1B8C0;
      font-weight:bold;
    }
-
 
 /* ------------------------RESPONSIVE WEB DESIGN----------------------------- */
 @media(max-width:1080px){
@@ -997,72 +1016,118 @@ footer{
 
 
 @media(max-width:535px){
+  /* caja 1 logo + idioma */
+  .caja_1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column-reverse;
 
+   }
+   .caja1_a{/* logo */
+      width: 100%;
+      height: auto;
+      align-items: center;
 
-                    .caja_1 p{
-                         font-size: 13px;
-                         margin: 2%;
-                    }
+  }
+        .logo{
+          width: 60%;
+          height:auto;
 
-       .caja_2{/* inferior: menú y título */
-        width: 100%;
-        height: 75%;
-       /*  border: 3px solid rgb(255, 0, 153);  */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       }
-            .menu{
-                width: 90%;
-                height: 35%;
-              /*  border: 3px solid rgb(212, 136, 182);  */
-                display: flex;
-                justify-content: center;
-                align-items: top;
+        }
+  .caja1_b{/* idioma */
+      width: 100%;
+      height: auto;
 
+  }
+  /* caja 2 menu + titulo */
+ .caja_2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
 
-            }
-                  .recuadro{
-                    width: 50%;
-                    height: 100%;
-                    border: 3px solid rgb(255, 255, 255);
-                    background-color:#000;
+}
+      .menu{
+        width: 60%;
+        height: 45%;
+
+      }
+          .recuadro{
+              width: 60%;
+              height: 90%;
+              background-color:black;
+              margin-top: 0;
+              margin-top: 50px;
                
-                  }
-                  .menu h4{
-                    font-size: 17px;
-                    margin: 2.5%;
-                    margin-left: 20%;
+          }
+          .menu h4{
+              font-size: 17px;
+              margin: 2.5%;
+              margin-left: 20%;
 
-                  }
-                  #home{
-                    font-size: 17px;
-                    margin: 2.5%;
-                    margin-left: 20%;
-                  }
-                  #h{
-                    font-size: 21px;
+          }
+          #home{
+              font-size: 17px;
+              margin: 2.5%;
+              margin-left: 20%;
 
-                  }
-    
-            .title{
-                width: 90%;
-                height: 60%;
-              /*   border: 3px solid rgb(10, 235, 156); */
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+          }
+          #h{
+             font-size: 21px;
+
             }
-                 .title h1{
-                    font-size: 3.7rem;
-                   
+          .title{
+              width: 90%;
+              height: 55%;
+              text-align: center;
+          }
+              .title h1{
+                 font-size: 3.5rem;
+                 text-align: center;
+                 line-height: 3.5rem;
 
-                 }
-                 .title h3{
-  
-                    font-size: 2.5rem;
+              }
+              .title h3{
+                font-size: 2.3rem;
+                color: #A1B8C0;
 
-                 }
+              }
+}
+@media(max-width:451px){
+  /* caja 1 logo + idioma */
+  .caja_1{
+    height: 20%;
+
+   }
+        .logo{
+          width:60%;
+          height:auto;
+
+        }
+  .caja1_b{/* idioma */
+      width: 100%;
+      height: auto;
+
+  }
+  /* caja 2 menu + titulo */
+ .caja_2{
+    height: 80%;
+
+}
+          .title{
+            width: 100%;
+            height: 55%;
+            text-align: center;
+          }
+              .title h1{
+                text-align: center;
+                font-size: 2.5rem;
+
+              }
+              .title h3{
+                font-size: 2.2rem;
+
+              }
 }
 
