@@ -17,7 +17,7 @@
 .eleccion_idioma{
 width: 100%;
 height: 40%;
-/* border: 5px solid rgb(123, 0, 255);  */
+
 }
 .eleccion_idioma a{
 font-size: 0.8rem;
@@ -29,10 +29,10 @@ margin: 2%;
  header{
     width:100%;
     height: 100vh;
-/*     border: 5px solid rgb(255, 208, 0); */
+
   }
 #sobre_nosotros{
-  background-image: url(img/portadas/portadas_movil/about_us_movil.jpeg);
+  background-image: url(about_us_movil.jpeg);
   background-size: cover;
 
 }
@@ -45,7 +45,7 @@ margin: 2%;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        /*  border: 3px solid rgb(208, 255, 0); */
+   
        }
        .caja1_a{/* LOGO */
         width: 90%;
@@ -53,8 +53,7 @@ margin: 2%;
         display: flex;
         justify-content: center;
         align-items: center; 
-        /* border: 3px solid rgb(4, 0, 255);   */
-        background-image: url(img/logos/LOGO\ BTEHR\ blanco.png);
+        background-image: url(LOGO BTEHR blanco.png));
         background-position: center;
         background-repeat: no-repeat;
         background-size: 45%;
@@ -70,7 +69,6 @@ margin: 2%;
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-end;
-                /* border: 3px solid rgb(17, 255, 0);  */
             }
                     .caja_1 p{
                          color: white;
@@ -91,7 +89,6 @@ margin: 2%;
             .menu{
                 width: 90%;
                 height: 70%;
-               /*  border: 3px solid rgb(212, 136, 182); */
                 display: flex;
                 justify-content: center;
                 align-items: top;
