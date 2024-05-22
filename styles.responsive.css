@@ -38,7 +38,7 @@
    
                }
                        .logo{
-                          width: 0%;
+                          width: 60%;
                        }
         
                .caja1_b{/* IDIOMA */
@@ -120,6 +120,7 @@
                    flex-direction: column;
                    justify-content: center;
                    align-items: left;
+                   text-aling:center;
     
                }
                     .title h1{
