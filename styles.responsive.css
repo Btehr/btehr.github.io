@@ -132,7 +132,7 @@
                     }
                     .title h3{/* misma linea */
                        font-size: 1.8rem;
-                       margin-left: 13%;/* TOCO AQUÍ */
+                       margin-left: 0;/* TOCO AQUÍ */
    
                     }
                     #about{ /* para bajar about us y alinear con la caja */
