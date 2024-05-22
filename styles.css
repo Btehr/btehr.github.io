@@ -76,7 +76,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(img/portadas/home.png); 
+    background-image: url(home.png); 
     background-size: cover;
 
  }
@@ -87,7 +87,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /* border: 3px solid rgb(208, 255, 0); */ 
+
        }
        .caja1_a{/* LOGO */
         width: 35%;
@@ -96,7 +96,6 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-end;
-        /* border: 3px solid rgb(255, 0, 21);   */
 
     }
             .logo{
@@ -166,7 +165,6 @@
                     font-size: 1.3rem;
                     margin: 2%;
                     margin-left: 15%;
-                  /*   border: solid 3px red */
 
                   }
                   .menu :hover{
@@ -199,7 +197,6 @@
             .title{
                 width: 65%;
                 height: 100%;
-               /*  border: 3px solid rgb(10, 235, 156); */
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -221,27 +218,26 @@
                     letter-spacing: 2px;
                     color: white;
                     text-decoration: none;
-                    /* margin-left: 9%; */
         
                  }
 /* -------- DISTINTAS PORTADAS DE CADA PÁGINA -------- */
 #contacto{
-  background-image: url(img/portadas/contact.png);/* CONTACT */
+  background-image: url(contact.png);/* CONTACT */
   background-size: cover;
    
 }
 #sobre_nosotros{
-  background-image: url(img/portadas/about_us.png);/* ABOUT US */
+  background-image: url(about_us.png);/* ABOUT US */
   background-size: cover;
 
 }
 #soluciones{
-  background-image: url(img/portadas/solutions.png);/* SOLUTIONS */
+  background-image: url(solutions.png);/* SOLUTIONS */
   background-size: cover;
 
 }
 #documentacion{
-  background-image: url(img/portadas/documents.png);/* DOCUMENTS */
+  background-image: url(documents.png);/* DOCUMENTS */
   background-size: cover;
 
 }
