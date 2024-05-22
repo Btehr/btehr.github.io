@@ -328,13 +328,11 @@
     }
                    .title h1{
                       font-size: 25px;
-                      border: 1px solid rgb(255, 208, 0); 
-
   
                    }
                    .encabezado h2{
-   
                     font-size: 22px;
+                    color: white;
              
                   }
           
@@ -358,7 +356,6 @@
           }
            .encabezado h2{
              height: 10%;
-          /*    border: 3px solid rgb(149, 212, 136); */
              font-size: 18px;
              display: flex;
              justify-content: center;
