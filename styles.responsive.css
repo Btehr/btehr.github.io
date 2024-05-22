@@ -7,11 +7,10 @@
     header{
        width:100%;
        height: 100vh;
-   /*     border: 5px solid rgb(255, 208, 0); */
        display: flex;
        flex-direction: column;
        justify-content: center;
-       background-image: url(img/portadas/portadas_movil/home_movil.jpeg);/* HOME */
+       background-image: url(home_movil.jpeg);/* HOME */
        background-size: cover;
    
     }
@@ -23,7 +22,7 @@
            flex-direction: column-reverse;
            justify-content: center;
            align-items: center;
-     /*      border: 3px solid rgb(208, 255, 0);  */
+
           }
                .caja1_a{/* LOGO */
                    width: 90%;
@@ -32,7 +31,7 @@
                    justify-content: center;
                    align-items: center; 
                    /* border: 3px solid rgb(4, 0, 255);   */
-                   background-image: url(img/logos/LOGO\ BTEHR\ blanco.png);
+                   background-image: url(LOGO BTEHR blanco.png));
                    background-position: center;
                    background-repeat: no-repeat;
                    background-size: 45%;
@@ -47,11 +46,10 @@
                    height: 20%;
                    display: flex;
                    justify-content: flex-end;
-                   /* border: 3px solid rgb(17, 255, 0);  */
+     
                }
                        .caja_1 a{
                             color: white;
-                            font-family: 'Raleway', sans-serif; 
                             font-size: 13px;
                             margin: 2%;
                        }
@@ -59,17 +57,15 @@
           .caja_2{/* inferior: menú y título */
            width: 100%;
            height: 75%;
-           /* border: 3px solid rgb(255, 0, 153);  */
            display: flex;
            flex-direction: column-reverse;
            justify-content: center;
            align-items: center;
-           align-items: center;
+
           }
                .menu{
                    width: 90%;
                    height: 70%;
-              /*  border: 3px solid rgb(212, 136, 182);  */
                    display: flex;
                    justify-content: center;
                    align-items: top;
