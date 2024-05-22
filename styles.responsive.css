@@ -11,7 +11,7 @@
        display: flex;
        flex-direction: column;
        justify-content: center;
-       background-image: url(home_movil.jpeg);/* HOME */
+       background-image: url(img/portadas/portadas_movil/home_movil.jpeg);/* HOME */
        background-size: cover;
    
     }
@@ -32,7 +32,7 @@
                    justify-content: center;
                    align-items: center; 
                    /* border: 3px solid rgb(4, 0, 255);   */
-                   background-image: url(LOGO BTEHR BLANCO.png);
+                   background-image: url(img/logos/LOGO\ BTEHR\ blanco.png);
                    background-position: center;
                    background-repeat: no-repeat;
                    background-size: 45%;
@@ -120,7 +120,6 @@
                .title{
                    width: 75%;
                    height: 30%;
-                   /* border: 3px solid rgb(10, 235, 156); */ 
                    display: flex;
                    flex-direction: column;
                    justify-content: center;
@@ -132,26 +131,19 @@
                        font-size: 2.6rem;
                        font-weight: 600;
                        line-height: 60px;
-      
-              
-                     /*   text-decoration: none; */
    
                     }
                     .title h3{/* misma linea */
-        
                        font-size: 1.8rem;
                        margin-left: 13%;/* TOCO AQUÍ */
    
                     }
                     #about{ /* para bajar about us y alinear con la caja */
-        
                      height: auto;
                      display: flex;
                      flex-direction: column;
                      justify-content: center;
                      align-items: center;
-                   
-                    /*  border: 3px solid rgb(10, 235, 156); */
                      
                     }
                     #us{
@@ -264,7 +256,7 @@
         }
 
   .title{
-      width: 75%;
+      width: 90%;
       height: 20%;
       display: flex;
       flex-direction: column;
@@ -278,6 +270,7 @@
        .title h3{
           font-size: 1.5rem;
           line-height: 30px;
+  
        }
 /* ------------------------------------------------ */
          .encabezado h1{
@@ -302,7 +295,8 @@
     .contenido{
        width: 100%;
     
-    }    /* encabezado */
+    }  
+ /* encabezado */
              .encabezado h1{
                font-size: 30px;
     
@@ -329,9 +323,17 @@
     header{
       height: 100vh;
     /*  border: 10px solid rgb(255, 208, 0);  */
+   
+    }
+    .title{
+      width: 100%;
+
+
     }
                    .title h1{
-                      font-size: 1.4rem;
+                      font-size: 25px;
+                      border: 1px solid rgb(255, 208, 0); 
+
   
                    }
                    .encabezado h2{
@@ -388,13 +390,13 @@
       font-size: 7px;
   }
   /* footer */
+  .redes_sociales h4{
+    font-size: 10px;
+
+  }
   .copys{
     font-size: 10px;
   
-  }
-       .redes_sociales h4{
-    font-size: 10px;
-
   }
   #versalita{
     font-size: 12px;
