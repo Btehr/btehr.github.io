@@ -59,7 +59,7 @@ margin: 2%;
 
     }
             .logo{
-               width: 0%;
+               width: 60%;
             }
                    
             .caja1_b{/* IDIOMA */
@@ -363,7 +363,6 @@ justify-content: flex-start;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                /*  border: 3px solid rgb(10, 190, 235);  */
             }
                  .title h1{
                     font-size: 2.5rem;
@@ -387,9 +386,6 @@ justify-content: flex-start;
            font-size: 16px;
 
        }
-       /* #frase{
-        font-size: 40px;
-       } */
 /* FORMULARIO CONTACT */
    #form{
       width: 100%;
@@ -399,7 +395,6 @@ justify-content: flex-start;
   
            .field label {
               width: 30%;
-              /* height: 50%; */
               font-size: 14px;
 
            }
@@ -419,20 +414,17 @@ justify-content: flex-start;
               width: 60%;
 
               font-size: 18px;
-             /*  border: 3px solid rgb(94, 255, 0); */
+    
 
            }
-/*  */
+
 .contenido{
-  /*  border: 8px solid rgb(212, 136, 182); */
    flex-direction: column;
    justify-content: center;
    align-items: center;
 
 }    
          .encabezado h2{
-
-          /* border: 3px solid rgb(149, 212, 136); */
            font-size: 25px;
 
          }
